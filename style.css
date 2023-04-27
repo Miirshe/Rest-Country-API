@@ -103,6 +103,8 @@ hr{
     border: 1px solid var(--primary-color);
     box-shadow: -2px 2px 2px  var(--ternary-color) , 2px 2px 2px var(--ternary-color);
     background-color: var(--primary-color);
+    position: relative;
+    overflow: hidden;
 }
 .card:hover{
     transform: perspective(400px) translatez(30px);
@@ -114,8 +116,8 @@ ul{
     list-style-type: none;
 }
 .card-img img{
-    width:240px;
-    height:150px;
+    width:100%;
+    /* height:150px; */
     border-radius: 5px;
 }
 li strong{
