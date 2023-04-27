@@ -116,13 +116,14 @@ ul{
 }
 .card-img img{
     width:100% !important;
-    height:200px !important;
+    height:160px !important;
 }
 li strong{
     color: var(--secondary-color);
     font-size: 15px;
     padding-top: 3px;
     letter-spacing:1.4px;
+    line-height:1.4;
 }
 .btn-arrow{
     padding:10px 15px;
