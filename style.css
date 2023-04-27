@@ -116,6 +116,7 @@ ul{
 }
 .card-img img{
     width:100% !important;
+    height:200px !important;
     border-radius: 5px;
 }
 li strong{
@@ -150,6 +151,7 @@ li strong{
     top:10px;
     cursor: pointer;
     text-align: center;
+    z-index:20;
 }
 .Showdrop{
     display:none;
@@ -201,8 +203,8 @@ li strong{
     margin-left: 10px;
 }
 .leftModal img{
-    width: 230px;
-    height:200px;
+    width:100% !important;
+    height:250px !important ;
 }
 .innerRight p {
     letter-spacing: 2px;
@@ -247,11 +249,6 @@ li strong{
         width:24%;
         margin:auto 10px;
     }
-    .card-img img{
-        width:210px;
-        height:150px;
-        border-radius:5px;
-    }
     .card:hover{
         transform: perspective(400px) translatez(30px);
     }
@@ -294,11 +291,6 @@ li strong{
         width:25%;
         margin:auto 10px;
     }
-    .card-img img{
-        width:195px;
-        height:150px;
-        border-radius:5px;
-    }
     .card:hover{
         transform: perspective(400px) translatez(30px);
     }
@@ -340,11 +332,6 @@ li strong{
     .card{
         width:29%;
         margin:auto 10px;
-    }
-    .card-img img{
-        width:190px;
-        height:150px;
-        border-radius:5px;
     }
     .ModalCountry{
         margin-left:10px;
@@ -395,11 +382,6 @@ li strong{
         width:28.5%;
         margin:auto 10px;
     }
-    .card-img img{
-        width:190px;
-        height:150px;
-        border-radius:5px;
-    }
     .ModalCountry{
         width: 95%;
     }
@@ -436,11 +418,6 @@ li strong{
         width:85%;
         margin:auto 4px;
     }
-    .card-img img{
-        width:270px;
-        height:150px;
-        border-radius:5px;
-    }
     .ModalCountry{
         width:100%;
         margin: auto;
@@ -473,10 +450,6 @@ li strong{
         width:37%;
         position: absolute;
         right:7px;
-    }
-    .leftModal img{
-        width:310px;
-        border-radius: 5px;
     }
     .card:hover{
         transform: perspective(400px) translatez(15px);
@@ -518,14 +491,6 @@ li strong{
     .card{
         width:90%;
         margin:auto 10px;
-    }
-    .card-img img{
-        width:200px;
-        height:150px;
-        border-radius:5px;
-    }
-    .leftModal img{
-        width:190px;
     }
     .card:hover{
         transform: perspective(400px) translatez(10px);

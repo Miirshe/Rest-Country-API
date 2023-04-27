@@ -37,7 +37,7 @@ function showdata(element) {
     const EngCj = `
     <div class="modal">
             <div class="leftModal">
-                <img src="${element.flags.png}" alt="" width="250px">
+                <img src="${element.flags.png}" alt="">
             </div>
             <div class="rightModal">
                 <div class="innerLeft">
